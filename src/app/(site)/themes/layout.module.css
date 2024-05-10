@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Rubik&display=swap');
+
+.container {
+  max-width: 1197px;
+  width: 100%;
+  margin: auto;
+  margin-top: 97px;
+}
+
+.body {
+  font-family: 'roboto', sans-serif;
+}
+
+.backtoptop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}

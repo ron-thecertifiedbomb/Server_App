@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary: #e81d2c;
+  --primaryHover: #cf1925;
+  --primaryDisabled: #f8b8bc;
+  --primaryNeutral: #fca99c;
+  --amber: #ffb300;
+  --background: #ffffff;
+  --border: #f0e8e8;
+  --shadow: #b0b0b0;
+  --shadowPrimary: #f49299;
+  --black500: #212529;
+  --text: #666666;
+  --white: #ffffff;
+  --gray: #808080;
+  --grayish: #79747e;
+  --gray300: #e0e0e0;
+  --gray500: #9e9e9e;
+  --gray600: #757575;
+  --gray700: #616161;
+  --gray900: #212121;
+  --grayEA: #eaeaea;
+  --grayA5: #a5a5a5;
+  --gray8B: #8b8b8b;
+  --gray61: #616161;
+  --gray900: #212121;
+  --grayLight: #f3f3f9;
+  --grayLight1: #f2f2f2;
+  --grayLight2: #f4f4f4;
+  --grayLight3: #a8b5be;
+  --grayLighter: #fbfbfb;
+  --grayBorder: #e2d6d7;
+  --grayWarm: #999999;
+  --graySilver: #cccccc;
+  --grayBackground: #10101060;
+  --graySubtle: #fcfcfc;
+  --grayDark: #444;
+  --grayNew: #9a9a9a;
+  --grayBright: #eeeeee;
+  --grayPink: #c7979a;
+  --grayPayne: #48484a;
+  --black: #101010;
+  --blackSteel: #2c2c2e;
+  --blackLight: #101010;
+  --blackWebSafe: #000;
+  --red: #ff0000;
+  --red50: #ffebee;
+  --red500: #f44336;
+  --red600: #e53935;
+  --redLight: #fffbfb;
+  --redSoft: #f49098;
+  --redTint: #fff6f7;
+  --redDark: #8a071a;
+  --redHot: #e70427;
+  --redStrawberry: #e64040;
+  --redPharmaBG: #fce8e8;
+  --yellow: #ffff00;
+  --yellowSoft: #ffcc33;
+  --yellowMango: #ff9933;
+  --yellowRating: #ffb710;
+  --blue: #0000ff;
+  --blueLight: #f2f6f9;
+  --blueGreen: #389fe3;
+  --blueMagenta: #f3f3f9;
+  --blueGradient: #369ee3;
+  --blueTiffany: #6cecec;
+  --blueLightAqua: #80ffea;
+  --orange: #ffa500;
+  --orangeDark: #ff7800;
+  --orangeBrown: #f18e25;
+  --orangeLight: #f08c45;
+  --orangeLight2: #fcb830;
+  --orangeLight3: #f7706a;
+  --orangeDeep: #fbe9e7;
+  --orangeDeeper: #ff5722;
+  --green: #008000;
+  --greenLight: #00ffbf;
+  --greenCyan: #3ccba3;
+  --greenCyanButton: #33cc99;
+  --greenCyanLight: #e8fffb;
+  --greenOpacity: #e8fffb7f;
+  --greenCyanNew: #6bcebb;
+  --greenPharma: #92c3e3;
+  --greenPharmaLight: #9cdfd9;
+  --greenPharmaFont: #00cccc;
+  --greenPharmaBorder: #64ead4;
+  --greenPharmaBG: #e8fcfc;
+  --greenGradient: #3ad39a;
+  --greenGradientL: #3ad39a20;
+  --purple: #800080;
+  --transparent: transparent;
+  --checkbox: #999999;
+  --checkboxDisabled: #99999925;
+  --zblack: #000000;
+  --gray01: #8e8e93;
+  --gray02: #8e8e93;
+  --green01: #c7f0bb;
+  --cyan: #dcfffb;
+  --cyanGreen: #3bbfb6;
+  --cyanBlue: #2899ed;
+  --cyanLight: #faffff;
+  --cyanGray: #e3e4e4;
+  --pink: #ff0068;
+  --pinkLight: #ebcacc;
+  --pinkNew: #fe0c63;
+  --pinkRed: #ffedef;
+  --pinkRedOpacity: #ffedef7f;
+  --pinkHot: #cf01b0;
+  --pinkLavender: #fff5f6;
+  --pinkLavenderPale: #f8e4ff;
+  --pinkCarnation: #f2b3b8;
+  --pinkPharmaBG: #a58d8f19;
+  --magenta: #d201af;
+  --magentaBlue: #7f06c1;
+  --magentaBlue98: #7f06c198;
+  --magentaLight: #ff8aec;
+  --magentaLighter: #fab6ef;
+  --aquaMarine: #37e3cd98;
+  --redPagination: #aa021a;
+  --silver: #d1cdcd;
+  --dark: #1c1c1e;
+  --fadedPink: #f2d6d8;
+  --pinkShopGradient: #f8b9ff;
+  --paleSky: #6c767e;
+  --ishtar: #49454f;
+  --whiteSmoke: #f3f3f3;
+  --carouselPink: #fbe8e6;
+  --infoBlue: #e3f2fd;
+  --seaShell: #fff8f3;
+
+  /* Primary Colors */
+  --primary-color: #e60c2b;
+  --accordion-bottom-border: #ff6700;
+
+  /* Background Colors */
+  --subcontent-background-color: #fff9f2;
+
+  /* Text Colors */
+  --text-color: #434343;
+  --link-color: #f02f1b;
+  --nav-link-color: #1d2124;
+
+  /* Border Colors */
+  --border-color: #7c7c7c;
+  --active-border-color: #e60c2b;
+
+  /* Other Colors */
+  --highlight-color: rgba(240, 47, 27, 0.25);
+  --button-color: #fff7f3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+html,
+body {
+  width: 100%;
+  /* height: 100%; */
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+
+ul,
+ol {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+}
+
+.react-calendar {
+  border: 0 !important;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #app-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.grecaptcha-badge {
+  bottom: 26% !important;
+  z-index: 99;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

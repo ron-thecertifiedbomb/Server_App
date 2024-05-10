@@ -1,0 +1,23 @@
+.ratingsContainer {
+  display: flex;
+}
+
+.averageRatingText {
+  font-size: 64px;
+  color: var(--amber);
+  line-height: normal;
+}
+
+.overallText {
+  font-size: 48px;
+  align-self: flex-end;
+  color: var(--amber);
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
+.totalRatingsText {
+  font-size: 16px;
+  color: var(--gray600);
+  line-height: normal;
+}

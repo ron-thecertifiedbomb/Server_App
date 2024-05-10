@@ -1,0 +1,63 @@
+@import '/src/themes/break-points.scss';
+
+.root {
+  margin-top: 16px;
+
+  .contentContainer {
+    .descriptionContainer {
+      background-color: white;
+
+      .descriptionSubContainer {
+        background-color: white;
+      }
+    }
+
+    .ratingHeaderLabel {
+      font-size: 48px;
+    }
+
+    .totalRatignHeaderLabel {
+      font-size: 24px;
+    }
+  }
+
+  .mightLikeContainer {
+    background-color: var(--carouselPink);
+
+    .mightLikeheader {
+      color: var(--orangeDeeper);
+    }
+  }
+
+  .description {
+    p,
+    ul,
+    li,
+    strong {
+      font-size: 16px;
+      font-family: var(--poppins);
+      font-weight: 400;
+      text-align: justify;
+    }
+    strong {
+      font-weight: 500;
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-lg) {
+  .root {
+    .descriptionContainer {
+      width: 100vw;
+      background-color: var(--whiteSmoke);
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-lg) {
+  .root {
+    .contentContainer {
+      width: $breakpoint-xl;
+    }
+  }
+}

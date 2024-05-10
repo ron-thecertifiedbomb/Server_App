@@ -1,0 +1,15 @@
+.root {
+  .buttonActive {
+    border-color: var(--primary);
+
+    .buttonActiveText {
+      color: var(--primary);
+    }
+  }
+
+  .buttonInActive {
+    .buttonInActiveText {
+      color: var(--paleSky);
+    }
+  }
+}

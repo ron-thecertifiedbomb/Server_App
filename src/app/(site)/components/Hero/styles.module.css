@@ -1,0 +1,20 @@
+.container {
+    background: linear-gradient(240deg, #ffe8d6 30%, #fff 55%, #ffd5c9 90%);
+    padding-top: 139px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 139px;
+}
+
+
+
+@media (max-width: 620px) {
+    .container {
+ 
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+
+

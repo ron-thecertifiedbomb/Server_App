@@ -1,0 +1,13 @@
+.productBreadCrums {
+  align-items: center;
+  margin-bottom: 24px;
+
+  .productBreadCrumsButton {
+    font-size: 17px;
+    color: var(--primary);
+  }
+
+  .productBreadCrumsActive {
+    color: black;
+  }
+}

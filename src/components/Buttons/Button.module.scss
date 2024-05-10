@@ -1,0 +1,25 @@
+.button {
+  border-radius: 4px;
+
+  &.primary {
+    background: var(--primary);
+  }
+
+  &.secondary {
+    background: var(--amber);
+  }
+
+  &.default {
+    background: var(--white);
+    color: var(--black);
+  }
+
+  &.transparent {
+    background: transparent;
+    color: var(--black);
+  }
+}
+
+.button:disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,14 @@
+
+.dropdown_wrapper {
+    width: 100% !important;
+    position: absolute;
+    color: black;
+    z-index: 9;
+  }
+  
+  .select_wrapper {
+    width: 100%;
+    color: black;
+    position: absolute;
+    z-index: 1;
+  }

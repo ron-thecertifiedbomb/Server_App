@@ -1,0 +1,35 @@
+@import '/src/themes/break-points.scss';
+
+.root {
+  .infoContainer {
+    background-color: var(--infoBlue);
+    border-radius: 4px;
+  }
+
+  .addToCartButton {
+    border: 1px solid var(--primary);
+
+    p {
+      color: var(--primary);
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-lg) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-lg) {
+  .buttons {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .addToWishlistButton {
+    margin-top: 10px;
+  }
+}

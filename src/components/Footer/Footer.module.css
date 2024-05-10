@@ -1,0 +1,65 @@
+/* Footer styling */
+.footer {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 60px;
+}
+
+.footerAddress {
+  width: 50%;
+}
+
+/* Styles for business paragraph */
+.footerBusiness {
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+/* Styles for other paragraphs */
+.footerParagraph {
+  font-style: normal;
+}
+
+.footerDiv {
+  text-align: right;
+}
+/* Styles for links */
+.footerLink {
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  /* color: #fff; */
+  text-decoration: none;
+}
+/* Divider styling */
+.divider {
+  border-top: 1px solid #ffffff;
+  margin: 20px 0;
+}
+
+/* All Rights Reserved label */
+.allRightsReserved {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Media query to stack address on small screens */
+@media (max-width: 768px) {
+  .footer {
+    /* background-color: var(--amber); */
+    /* color: black; */
+    text-align: center;
+  }
+
+  .footerAddress {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .footerDiv {
+    text-align: center;
+  }
+}
