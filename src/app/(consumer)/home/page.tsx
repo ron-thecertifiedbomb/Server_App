@@ -21,14 +21,6 @@ interface homeProps {
 }
 
 const HomePage = (props: homeProps) => {
-  const { setHomeRequest, getSearchCategoryRequest, setClearSearchAction } = props;
-
-  useEffect(() => {
-    setHomeRequest();
-    getSearchCategoryRequest()
-    console.log("1231231");
-    setClearSearchAction()
-  }, [setHomeRequest]);
 
   return (
     <div>
